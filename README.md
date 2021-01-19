@@ -7,7 +7,7 @@ You probably would do better by not using this app.
 
 ## Documentation
 
-When ther is a proyect to actually document it will be documented here, I guess.
+When there is a project to actually document it will be documented here, I guess.
 
 ### Structure
 
