@@ -1,6 +1,6 @@
 # ifndef string
-	#define string 1
-	#include <string.h>
+	#define STR 1
+	#include <string>
 # endif
 
 enum Docs_Case{diary,secret,dump,memo};
