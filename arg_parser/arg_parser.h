@@ -1,16 +1,21 @@
-# ifndef string
+# ifndef STR
 	#define STR 1
 	#include <string>
+	#include <sstream>
 # endif
-
-typedef enum Docs_Case{diary,secret,note,todo} docs;
+# ifndef MN
+	#define MN 1
+	#include "../main.h"
+# endif
 
 class Parser{
 	private:
-		bool is_dump=false;
-		docs doctype;
+		bool is_dump=false,is_help=false, secret_message=false;
+		docs doctype=diary;
+		priority_level priority=inconsequential;
 	public:
+		
 		Parser(int argc,char **argv);
-		~Parser();
 		docs get_doctype();
+		priority_level get_priority();
 };
