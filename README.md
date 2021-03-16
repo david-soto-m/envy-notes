@@ -17,10 +17,6 @@ Open a terminal editor in order to take a note that gets filed to a directory de
 
 By default it creates a diary
 
-**-d, --diary**
-
-Creates a diary file into the diary directory
-
 **-s, --secret**
 
 Creates a file that goes to /dev/null
