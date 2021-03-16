@@ -10,8 +10,8 @@
 
 class Parser{
 	private:
-		bool is_dump=false,is_help=false, secret_message=false;
-		docs doctype=diary;
+		bool is_help=false, secret_message=false;
+		docs doctype=note;
 		priority_level priority=inconsequential;
 	public:
 		
